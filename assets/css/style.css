@@ -1,0 +1,43 @@
+/* assets/css/style.css */
+
+/* Estilização global para o corpo da página inicial (index.php) */
+body {
+    background-color: #6A0DAD; /* Cor roxa */
+    color: #ffffff;  /* Texto branco para contraste */
+}
+
+/* Estilização da área do conteúdo principal */
+.container {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #FFD700; /* Título em cor dourada */
+}
+
+/* Estilização do botão */
+.btn-primary {
+    background-color: #007BFF; /* Botão azul */
+    border: none;
+}
+
+/* Estilização da página de resultado (show_zodiac_sign.php) */
+body.resultado-signo {
+    background-image: url('../imgs/astrology-background.jpg'); /* Imagem de fundo de astrologia */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff; /* Texto em branco para contraste */
+}
+
+/* Imagem dos signos ao lado do nome */
+.signo-simbolo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
