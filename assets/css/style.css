@@ -2,7 +2,7 @@
 
 /* Estilização global para o corpo da página inicial (index.php) */
 body {
-    background-color: #6A0DAD; /* Cor roxa */
+    background-color: #ad620d; /* Cor roxa */
     color: #ffffff;  /* Texto branco para contraste */
 }
 
@@ -27,7 +27,7 @@ h1 {
 
 /* Estilização da página de resultado (show_zodiac_sign.php) */
 body.resultado-signo {
-    background-image: url('../imgs/astrology-background.jpg'); /* Imagem de fundo de astrologia */
+    background-image: url('../imgs/astrology-background.png'); /* Imagem de fundo de astrologia */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
